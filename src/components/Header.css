@@ -1,0 +1,117 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--sand);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 78px;
+}
+
+.site-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-header__mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.site-header__wordmark {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: var(--ink);
+  line-height: 1.05;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header__wordmark small {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ember);
+  font-weight: 600;
+}
+
+.site-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.site-header__link {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: var(--charcoal-soft);
+  padding: 6px 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.site-header__link:hover { color: var(--ink); }
+
+.site-header__link.is-active {
+  color: var(--ink);
+  border-bottom-color: var(--ember);
+}
+
+.site-header__cta { margin-left: 6px; }
+
+.site-header__toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  padding: 8px;
+}
+
+.site-header__toggle span {
+  width: 24px;
+  height: 2px;
+  background: var(--ink);
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .site-header__toggle { display: flex; }
+
+  .site-header__nav {
+    position: absolute;
+    top: 78px;
+    left: 0;
+    right: 0;
+    background: var(--sand);
+    border-bottom: 1px solid var(--line);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 10px 20px 22px;
+    display: none;
+  }
+
+  .site-header__nav.is-open { display: flex; }
+
+  .site-header__link { width: 100%; padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .site-header__cta { margin: 12px 0 0; }
+}

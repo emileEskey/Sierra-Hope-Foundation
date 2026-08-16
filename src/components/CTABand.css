@@ -1,0 +1,32 @@
+.cta-band {
+  background: var(--ink);
+  color: var(--sand);
+}
+
+.cta-band__inner {
+  padding: 56px 0 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.cta-band__inner h2 {
+  color: var(--sand);
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+  max-width: 30ch;
+  margin-top: 10px;
+}
+
+.cta-band__inner p {
+  margin-top: 10px;
+  color: rgba(243, 233, 215, 0.75);
+  max-width: 42ch;
+}
+
+.cta-band__actions {
+  display: flex;
+  gap: 14px;
+  flex-shrink: 0;
+}

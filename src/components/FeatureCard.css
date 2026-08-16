@@ -1,0 +1,25 @@
+.feature-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  height: 100%;
+}
+
+.feature-card__index {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--ember);
+  letter-spacing: 0.06em;
+}
+
+.feature-card h3 {
+  margin-top: 12px;
+  font-size: 1.15rem;
+}
+
+.feature-card p {
+  margin-top: 10px;
+  color: var(--charcoal-soft);
+  font-size: 0.94rem;
+}
