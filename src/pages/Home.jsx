@@ -4,7 +4,7 @@ import StatStrip from '../components/StatStrip';
 import FeatureCard from '../components/FeatureCard';
 import CTABand from '../components/CTABand';
 import './Home.css';
-import one from '../assets/one.jpeg';
+import us from '../assets/us.jpg';
 import sierra_leone_flag from '../assets/sierra_leone_flag.jpg';
 import sl_beach from '../assets/sl_beach.jpg';
 import sl_bridge from '../assets/sl_bridge.jpg';
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <div className="home-hero__image">
             <img
-              src= {one}
+              src= {us}
               alt="Community members at a Sierra Hope Foundation outreach event"
             />
           </div>
@@ -60,7 +60,7 @@ export default function Home() {
               <p className="home-mission__body">
                 Since 2014, Sierra Hope Foundation has partnered with chiefdoms across the
                 Western Area, Bo, and Kono districts to design programs rooted in what each
-                community says it needs first — not a fixed template shipped from outside.
+                community says it needs first; not a fixed template shipped from outside.
               </p>
               <Link to="/about" className="home-mission__link">Read our full story →</Link>
             </div>

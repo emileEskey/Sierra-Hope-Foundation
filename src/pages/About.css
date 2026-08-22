@@ -15,6 +15,7 @@
   color: var(--charcoal-soft);
   margin-bottom: 14px;
   max-width: 56ch;
+  text-align: justify;
 }
 
 .about-story__img {
