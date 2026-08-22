@@ -18,6 +18,7 @@
   color: rgba(243, 233, 215, 0.8);
   max-width: 46ch;
   font-size: 1.05rem;
+  text-align: justify;
 }
 
 .home-hero__actions {

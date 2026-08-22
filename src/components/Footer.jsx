@@ -31,9 +31,13 @@ export default function Footer() {
         <div>
           <h4>Contact</h4>
           <ul>
-            <li>14 Regent Highway, Freetown, Sierra Leone</li>
-            <li>+232 76 000 000</li>
-            <li>hello@sierrahope.org</li>
+            <li>UNIMTECH, Freetown, Sierra Leone</li>
+            <li>+232 99 480 932</li>
+            <li>+232 30 499 138</li>
+            <li>+232 80 061 959</li>
+            <li>+232 33 338 161</li>
+            <li>+232 76 358 273</li>
+            <li>sierrahope.org</li>
           </ul>
         </div>
 

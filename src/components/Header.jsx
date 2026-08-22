@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
+import logo from '../assets/logo.png';
 
 const LINKS = [
   { to: '/', label: 'Home' },
@@ -17,7 +18,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container site-header__row">
         <NavLink to="/" className="site-header__brand" onClick={() => setOpen(false)}>
-          <span className="site-header__mark">SH</span>
+          <img src={logo} alt="Sierra Hope Foundation logo" className="site-header__mark" />
           <span className="site-header__wordmark">
             Sierra Hope
             <small>Foundation</small>

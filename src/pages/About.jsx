@@ -3,6 +3,8 @@ import FeatureCard from '../components/FeatureCard';
 import CTABand from '../components/CTABand';
 import GaraDivider from '../components/GaraDivider';
 import './About.css';
+import med from '../assets/med.png';
+import mockup from '../assets/mockup.png';
 
 const VALUES = [
   { title: 'Community First', body: 'Every program starts with a chiefdom-level needs conversation, not a head-office plan.' },
@@ -17,8 +19,8 @@ export default function About() {
         crumb="About Us"
         kicker="Who We Are"
         title="Built in Sierra Leone, for Sierra Leone."
-        description="Sierra Hope Foundation is a community-based organisation working across the Western Area, Bo, and Kono districts."
-        image="https://picsum.photos/seed/sh-about-hero/700/560"
+        description="Sierra Hope Foundation is a community-based organisation working across Sierra Leone."
+        image={mockup}
         imageAlt="Sierra Hope Foundation field team meeting with a village council"
       />
 
@@ -29,8 +31,8 @@ export default function About() {
             <span className="eyebrow">Our Story</span>
             <h2>From one clinic in Waterloo to nine districts.</h2>
             <p>
-              Sierra Hope Foundation began in 2014 as a volunteer health outreach run out of a
-              single clinic in Waterloo. Founders Aminata Kargbo and Ibrahim Sesay noticed that
+              Sierra Hope Foundation began on 10th August, 2026 as a volunteer health outreach run out of a
+              single clinic in Waterloo. Founders Mariama Sow, Mohamed Turay, Emile Kamara, Abdul Mohamed Conteh and Sahr Barbah Fayia noticed that
               families were walking hours for basic care, and started organising monthly mobile
               health days with a handful of nursing students.
             </p>
@@ -41,9 +43,9 @@ export default function About() {
             </p>
           </div>
           <img
-            src="https://picsum.photos/seed/sh-about-story/560/460"
-            alt="Sierra Hope Foundation volunteers at an early outreach day"
-            className="about-story__img"
+           src={med}
+           alt="Sierra Hope Foundation volunteers at an early outreach day"
+           className="about-story__img"
           />
         </div>
       </section>
