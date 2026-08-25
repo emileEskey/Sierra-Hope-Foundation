@@ -2,6 +2,7 @@ import PageHero from '../components/PageHero';
 import CTABand from '../components/CTABand';
 import GaraDivider from '../components/GaraDivider';
 import './Programs.css';
+import girl from '../assets/girl.jpg';
 
 const PROGRAMS = [
   {
