@@ -34,7 +34,7 @@
 .page-hero__image {
   border-radius: var(--radius);
   overflow: hidden;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 2.5 / 1;
   border: 1px solid rgba(243, 233, 215, 0.18);
 }
 

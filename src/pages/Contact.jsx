@@ -2,6 +2,7 @@ import { useState } from 'react';
 import PageHero from '../components/PageHero';
 import CTABand from '../components/CTABand';
 import './Contact.css';
+import all from '../assets/all.jpg';
 
 const INITIAL = { name: '', email: '', message: '' };
 
@@ -32,8 +33,8 @@ export default function Contact() {
         crumb="Contact Us"
         kicker="Get In Touch"
         title="We'd love to hear from you."
-        description="Questions about a program, a partnership, or how to give — send us a message and a team member will reply within two working days."
-        image="https://picsum.photos/seed/sh-contact-hero/700/560"
+        description="Questions about a program, a partnership, or how to give. send us a message and a team member will reply within two working days."
+        image={all}
         imageAlt="Sierra Hope Foundation office in Freetown"
       />
 
@@ -64,15 +65,27 @@ export default function Contact() {
             <ul>
               <li>
                 <strong>Address</strong>
-                14 Regent Highway, Freetown, Sierra Leone
+                UNIMTECH, Freetown, Sierra Leone
               </li>
               <li>
                 <strong>Phone</strong>
-                +232 76 000 000
+                +232 99 480 932
+              </li>
+              <li>
+                +232 30 499 138
+              </li>
+              <li>
+                +232 80 061 959
+              </li>
+              <li>
+                +232 33 338 161
+              </li>
+              <li>
+                +232 76 358 273
               </li>
               <li>
                 <strong>Email</strong>
-                hello@sierrahope.org
+                <a href="mailto:sierrahope2026@gmail.com">sierrahope2026@gmail.com</a>
               </li>
               <li>
                 <strong>Office Hours</strong>

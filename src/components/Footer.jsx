@@ -37,17 +37,17 @@ export default function Footer() {
             <li>+232 80 061 959</li>
             <li>+232 33 338 161</li>
             <li>+232 76 358 273</li>
-            <li>sierrahope.org</li>
+            <li><a href="mailto:sierrahope2026@gmail.com">sierrahope2026@gmail.com</a></li>
           </ul>
         </div>
 
         <div>
           <h4>Follow</h4>
           <ul className="site-footer__social">
-            <li><a href="#top">Facebook</a></li>
-            <li><a href="#top">Instagram</a></li>
-            <li><a href="#top">X / Twitter</a></li>
-            <li><a href="#top">LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61593938092700">Facebook</a></li>
+            <li><a href="https://wa.me/23233338161">WhatsApp</a></li>
+            <li><a href="https://www.tiktok.com/@sense4tech?_r=1&_t=ZS-998zxZwkn95">TikTok</a></li>
+            <li><a href="https://www.instagram.com/johnbabsen?igsi=YjE2bzE1aHoyazJ6">Instagram</a></li>
           </ul>
         </div>
       </div>
