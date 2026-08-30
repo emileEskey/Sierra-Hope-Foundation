@@ -2,12 +2,6 @@ import PageHero from '../components/PageHero';
 import CTABand from '../components/CTABand';
 import GaraDivider from '../components/GaraDivider';
 import './Programs.css';
-import girl from '../assets/girl.jpg';
-import skill from '../assets/skill.jpg';
-import water from '../assets/water.jpg';
-import med from '../assets/med.png';
-import event from '../assets/event.png';
-
 
 const PROGRAMS = [
   {
